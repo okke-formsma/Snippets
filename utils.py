@@ -1,4 +1,4 @@
-sprinter(iterable, every=1000):
+progressprinter(iterable, every=1000):
     length = len(iterable)
     for i, row in enumerate(iterable):
         if i % every == 0:
